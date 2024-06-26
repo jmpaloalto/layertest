@@ -127,3 +127,4 @@ RUN echo "Layer 123" > /layer123.txt
 RUN echo "Layer 124" > /layer124.txt
 RUN echo "Layer 125" > /layer125.txt
 RUN echo "Layer 126" > /layer126.txt
+CMD [ "/sbin/init" ]
